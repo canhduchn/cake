@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    font-family: $primary-font;
+    line-height: 1;
+    color: $primary-text;
+    font-size: 2rem;
+}

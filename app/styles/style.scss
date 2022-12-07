@@ -6,24 +6,16 @@
 // @import 'vendors/jquery-ui';
 
 @import 'base/reset';
+@import 'base/global';
 @import 'base/typography';
 
-@import 'layout/navigation';
-// @import 'layout/grid';
+@import 'layout/structure';
 @import 'layout/header';
 @import 'layout/footer';
-// @import 'layout/sidebar';
-// @import 'layout/forms';
 
 @import 'components/buttons';
-// @import 'components/carousel';
 @import 'components/slider';
 
-@import 'pages/home';
-@import 'pages/about';
-@import 'pages/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';
-
-
+body{
+    
+}

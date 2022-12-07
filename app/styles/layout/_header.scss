@@ -1,0 +1,71 @@
+.header{
+    &-top{
+        padding:0 5rem 0 5rem;
+    }
+    min-height: 50rem;
+    background-color: $primary-color;
+    &-logo{
+        font-size: 3rem;
+        font-weight: bold;
+        color: $primary-text;
+    }
+    &-menu-link{
+        color: $primary-text;
+        display: inline-block;
+        padding: 5.6rem 2rem 1.3rem 2rem;
+        background-color: $color-icon transparent;
+        transition:  all 0.25s linear;
+    }
+    &-menu-link:hover{
+        background-color: $color-icon;
+        color: $primary-color;
+    }
+    &-menu-icon{
+        color: $primary-text;
+        i:not(:first-child){
+            margin-left: 2.3rem;
+        }
+    }
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &-menu{
+        display: flex;
+        align-items: baseline;
+    }
+    &-menu-item:not(:first-child){
+        margin-left: 3rem;
+    }
+    &-menu-item:last-child{
+        margin-left: 21rem;
+    }
+    &-conten-top{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 9.5rem;
+        h1 {font-size: 10rem;
+            padding-top: 3rem;
+            padding-bottom: 3.5rem;}
+        p {padding-bottom: 4.5rem;}
+        a {background-color: $color-icon;
+        padding: 1.5rem 3rem ;
+        color: $primary-color;}
+        &-numbers{
+            font-size: 1.7rem;
+            padding: 9rem 9.5rem 0 15rem;
+        }
+        &-title{
+            width: 500px;
+            margin-right: auto;
+        }
+        &-img{
+            margin-right: 7.5rem;
+        }
+    }
+    &-conten-bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}
